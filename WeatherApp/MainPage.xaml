@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.MainPage" BackgroundImageSource="https://as2.ftcdn.net/v2/jpg/02/93/51/67/1000_F_293516731_j2nazCyBxtJplUVCCRRAsw6FWNXmM3Jw.jpg"/>
+
+<StackLayout>
+        <Label Text="{Binding main.temp}" />
+        <Label Text="{Binding main.pressure}"/>
+        <Label Text="{Binding main.humidity}"/>
+        <Label Text="{Binding clouds.all}"/>
+        <Label Text="{Binding wind.speed}"/>
+</StackLayout>
+
+
